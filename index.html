@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje zainteresowania</title>
+    <style>
+        body {
+            font-family: "Grenze Gotisch", serif; /* Nowa czcionka dla tekstu */
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #800000; /* czerwony */
+            color: #fff; /* biały */
+        }
+
+        h1 {
+            font-family: "UnifrakturMaguntia", sans-serif; /* Czcionka tytułu */
+            font-size: 3em; /* Większy rozmiar */
+            margin-bottom: 10px; /* Mniejszy margines dolny */
+        }
+        h2 {
+            font-family: "Grenze Gotisch", serif;
+            color:#cc0000;
+            margin: auto;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .important {
+            color: #800000; /* czerwony */
+            font-family: "Grenze Gotisch", serif; /* Czcionka ważnego tekstu */
+            font-weight: normal; /* Zwykła waga czcionki */
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto; /* większy margines */
+            padding: 20px;
+            background-color: #fff; /* białe tło */
+            border-radius: 10px; /* zaokrąglone rogi */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* cień */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Efekt przy najechaniu kursorem */
+        a {
+            color: #800000; /* czerwony */
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #cc0000; /* jasnoczerwony */
+        }
+
+        /* Responsywny design */
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
+
+        /* Animacje */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animated {
+            animation: fadeIn 1s ease-in-out;
+        }
+        .img-left {
+            max-width: 23%; /* Maksymalna szerokość obrazka równa szerokości komórki */
+            height: auto; /* Automatyczne dopasowanie wysokości */
+            border-radius: 0; /* Wyłączenie zaokrąglenia brzegów */
+        }
+
+        .img-left {
+            float: left;
+            margin-right: 11px; /* Dodatkowy margines po prawej stronie */
+            border-top-left-radius: 10px; /* Zaokrąglenie górnego prawego rogu dla obrazka po lewej stronie */
+            border-bottom-left-radius: 10px; /* Zaokrąglenie dolnego prawego rogu dla obrazka po lewej stronie */
+        }
+        .img-left-2 {
+            max-width: 16%; /* Maksymalna szerokość obrazka równa szerokości komórki */
+            height: auto; /* Automatyczne dopasowanie wysokości */
+            border-radius: 0; /* Wyłączenie zaokrąglenia brzegów */
+        }
+
+        .img-left-2 {
+            float: left;
+            margin-right: 11px; /* Dodatkowy margines po prawej stronie */
+            border-top-left-radius: 10px; /* Zaokrąglenie górnego prawego rogu dla obrazka po lewej stronie */
+            border-bottom-left-radius: 10px; /* Zaokrąglenie dolnego prawego rogu dla obrazka po lewej stronie */
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Moje zainteresowania</h1>
+        <h2>Modelarstwo, Muzyka, Moda</h2>
+    </header>
+    <div class="container animated">
+        <img src="https://d3fa68hw0m2vcc.cloudfront.net/d67/252129688.jpeg" alt="Obrazek" class="img-left">
+        <p>Odkąd pamiętam, <span class="important">modelarstwo</span> stanowi dla mnie niezwykłą pasję. To więcej niż tylko hobby, to sposób na wyrażenie swojej kreatywności i pasji do szczegółów.</p>
+        <p><span class="important">Każdy model to historia do opowiedzenia,</span>drobne detale, które nadają mu charakter i osobowość. Dla mnie modelarstwo to nie tylko zabawa, ale też wyzwanie, które pozwala rozwijać umiejętności manualne i cierpliwość.</p>
+        <a href="#">Zobacz więcej</a> <!-- Efekt przy najechaniu kursorem -->
+    </div>
+    <div class="container animated">
+        <img src="https://f4.bcbits.com/img/0024315046_10.jpg" alt="Obrazek" class="img-left">
+        <p><span class="important">Czeski zespół Midi Lidi</span> jest niezwykle intrygującym zjawiskiem w świecie muzyki. Ich wyjątkowe podejście do tworzenia muzyki elektronicznej, połączone z nietypowymi tekstami piosenek, sprawia, że są one niezapomniane. Co więcej, zespół składa się z wyjątkowo zdolnych artystów, którzy potrafią eksperymentować z dźwiękiem i brzmieniami w sposób, który wciąga słuchaczy.</p>
+        <p>Osobiście, uwielbiam muzykę Midi Lidi ze względu na jej oryginalność i kreatywność. Ich kompozycje są pełne energii i eksperymentów dźwiękowych. Ponadto, teksty piosenek są często niekonwencjonalne co dodaje im dodatkowej warstwy znaczeniowej.</p>
+        <a href="#">Zobacz więcej</a> <!-- Efekt przy najechaniu kursorem -->
+    </div>
+    <div class="container animated">
+        <img src="IWM-H-7330-Road-Barrier-in-Scotland.jpg" alt="Obrazek" class="img-left">
+        <p>Lubię historię z wielu powodów, ale przede wszystkim dlatego, że jest to <span class="important">fascynująca podróż przez czas i przestrzeń,</span> która pozwala nam zrozumieć, skąd pochodzimy, kim jesteśmy obecnie i jakie są możliwe przyszłe scenariusze. Historia jest jak wielka księga, w której zapisane są przygody ludzi, cywilizacji, wydarzenia polityczne, społeczne i kulturowe, które kształtowały świat, w którym obecnie żyjemy.</p>
+        <a href="#">Zobacz więcej</a> <!-- Efekt przy najechaniu kursorem -->
+    </div>
+    <div class="container animated">
+        <img src="U.S._Marines_in_the_Middle_East,_1991_(1991),_by_Donna_J._Neary.png" alt="Obrazek" class="img-left-2">
+        <p>Lubię modę użytkową z wielu powodów, ale przede wszystkim dlatego, że jest to dla mnie wyraz osobistej ekspresji i sposobu wyrażania siebie. Ubrania, które nosimy, mają ogromny wpływ na to, jak postrzegamy siebie i jak inni nas postrzegają. Moda użytkowa daje mi możliwość eksperymentowania z różnymi stylami, kolorami i wzorami, co pozwala mi wyrazić swoją osobowość i indywidualność.</p>
+        <a href="#">Zobacz więcej</a> <!-- Efekt przy najechaniu kursorem -->
+    </div>
+    <footer>
+        &copy; 2024 Moje zainteresowania
+    </footer>
+</body>
+</html>
