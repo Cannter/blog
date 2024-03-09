@@ -21,7 +21,7 @@
         }
 
         h1 {
-            font-family: "UnifrakturMaguntia", sans-serif; /* Czcionka tytułu */
+            font-family: "UnifrakturMaguntia", sans-serif; /* Czcionka nagłówka */
             font-size: 3em; /* Większy rozmiar */
             margin-bottom: 10px; /* Mniejszy margines dolny */
         }
@@ -99,8 +99,8 @@
         .img-left {
             float: left;
             margin-right: 11px; /* Dodatkowy margines po prawej stronie */
-            border-top-left-radius: 10px; /* Zaokrąglenie górnego prawego rogu dla obrazka po lewej stronie */
-            border-bottom-left-radius: 10px; /* Zaokrąglenie dolnego prawego rogu dla obrazka po lewej stronie */
+            border-top-left-radius: 10px; /* Zaokrąglenie górnego lewego rogu dla obrazka po lewej stronie */
+            border-bottom-left-radius: 10px; /* Zaokrąglenie dolnego lewego rogu dla obrazka po lewej stronie */
         }
         .img-left-2 {
             max-width: 16%; /* Maksymalna szerokość obrazka równa szerokości komórki */
@@ -111,20 +111,20 @@
         .img-left-2 {
             float: left;
             margin-right: 11px; /* Dodatkowy margines po prawej stronie */
-            border-top-left-radius: 10px; /* Zaokrąglenie górnego prawego rogu dla obrazka po lewej stronie */
-            border-bottom-left-radius: 10px; /* Zaokrąglenie dolnego prawego rogu dla obrazka po lewej stronie */
+            border-top-left-radius: 10px; /* Zaokrąglenie górnego lewego rogu dla obrazka po lewej stronie */
+            border-bottom-left-radius: 10px; /* Zaokrąglenie dolnego lewego rogu dla obrazka po lewej stronie */
         }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    </style> /* tutaj kończy się kod css */
+    <link /* tutaj są odnośniki do serwera Google fonts żeby można było używać innych czcionek */ href="https://fonts.googleapis.com/css2?family=Germania+One&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body> /* tutaj zaczyna się kod html */
     <header>
-        <h1>Moje zainteresowania</h1>
-        <h2>Modelarstwo, Muzyka, Moda</h2>
+        <h1>Moje zainteresowania</h1> /* nagłówek */
+        <h2>Modelarstwo, Muzyka, Moda</h2> /* tekst pod nagłówkiem */
     </header>
     <div class="container animated">
-        <img src="https://d3fa68hw0m2vcc.cloudfront.net/d67/252129688.jpeg" alt="Obrazek" class="img-left">
+        <img src="https://d3fa68hw0m2vcc.cloudfront.net/d67/252129688.jpeg" alt="Obrazek" class="img-left"> /* link do obrazka który jest w internecie */
         <p>Odkąd pamiętam, <span class="important">modelarstwo</span> stanowi dla mnie niezwykłą pasję. To więcej niż tylko hobby, to sposób na wyrażenie swojej kreatywności i pasji do szczegółów.</p>
         <p><span class="important">Każdy model to historia do opowiedzenia,</span>drobne detale, które nadają mu charakter i osobowość. Dla mnie modelarstwo to nie tylko zabawa, ale też wyzwanie, które pozwala rozwijać umiejętności manualne i cierpliwość.</p>
         <a href="#">Zobacz więcej</a> <!-- Efekt przy najechaniu kursorem -->
@@ -136,7 +136,8 @@
         <a href="#">Zobacz więcej</a> <!-- Efekt przy najechaniu kursorem -->
     </div>
     <div class="container animated">
-        <img src="IWM-H-7330-Road-Barrier-in-Scotland.jpg" alt="Obrazek" class="img-left">
+        <img src="IWM-H-7330-Road-Barrier-in-Scotland.jpg" <!-- Link do obrazka który jest lokalnie zapisany na dysku -->
+ alt="Obrazek" class="img-left">
         <p>Lubię historię z wielu powodów, ale przede wszystkim dlatego, że jest to <span class="important">fascynująca podróż przez czas i przestrzeń,</span> która pozwala nam zrozumieć, skąd pochodzimy, kim jesteśmy obecnie i jakie są możliwe przyszłe scenariusze. Historia jest jak wielka księga, w której zapisane są przygody ludzi, cywilizacji, wydarzenia polityczne, społeczne i kulturowe, które kształtowały świat, w którym obecnie żyjemy.</p>
         <a href="#">Zobacz więcej</a> <!-- Efekt przy najechaniu kursorem -->
     </div>
